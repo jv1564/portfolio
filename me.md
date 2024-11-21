@@ -1,7 +1,7 @@
-[Back to main page](./../README.md)
-
 # Julie Villarreal
 Technical Writer, Editor | Process Analyst | University Instructor  
+
+---
 
 ## About Me: [Resume](/files/Julie_Villarreal_2024.pdf)  |  [LinkedIn](www.linkedin.com/in/juliev)
 
@@ -23,5 +23,3 @@ Technical Writer, Editor | Process Analyst | University Instructor
 - SharePoint
 
 ---
-
-[Back to main page](./../README.md)
