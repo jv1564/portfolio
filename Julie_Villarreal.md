@@ -8,7 +8,7 @@ Technical Writer, Editor | Process Analyst | University Tech Writing Instructor
 ## Writing Samples
 
 **Process Diagrams**
-- [SDLC (Software Development Life Cyle)](/files/SDLC_2024%20copy.pdf)
+- [SDLC](/files/SDLC_2024%20copy.pdf) (Software Development Life Cyle)
 - [Pop Turn-Up](/files/PoP_TurnUp_Process_v0_18.pdf)
 - [Incident Management](/files/2008_09_23_ITIL_IM_PrintVersionJV2.pdf)
 - [Change Timeline](/files/Change_Mgmt_21DaySubmit.pdf)
