@@ -1,7 +1,7 @@
 # Julie Villarreal
-Technical Writer, Editor | Process Analyst | University Tech Writing Instructor  
+Technical Writer, Editor | Process Analyst | University Technical Writing Instructor  
 
-[Resume](/files/Julie_Villarreal_2024.pdf)  |  [LinkedIn Profile](www.linkedin.com/in/juliev)
+[Resume](/files/Julie_Villarreal_2024.pdf) | [LinkedIn Profile](www.linkedin.com/in/juliev)
 
 ---
 
@@ -9,7 +9,7 @@ Technical Writer, Editor | Process Analyst | University Tech Writing Instructor
 
 **Process Diagrams**
 - [SDLC](/files/SDLC_2024%20copy.pdf) (Software Development Life Cyle)
-- [Pop Turn-Up](/files/PoP_TurnUp_Process_v0_18.pdf)
+- [PoP Turn-Up](/files/PoP_TurnUp_Process_v0_18.pdf)
 - [Incident Management](/files/2008_09_23_ITIL_IM_PrintVersionJV2.pdf)
 - [Change Timeline](/files/Change_Mgmt_21DaySubmit.pdf)
 - [Troubleshoot Server Issues](/files/33-300-5081_SOP_Troubleshooting_Server_Issues.pdf)
@@ -28,7 +28,7 @@ Technical Writer, Editor | Process Analyst | University Tech Writing Instructor
 - [Customer Support Guide](/files/Customer_Support_Guide_July_2019a.pdf)
 - Customer Email: [Limelight](/files/CustomerEmail_AddIP.jpg) | [Edgio](/files/email.pdf)
 
-## Doc Tools
+## Documentation Tools
 - GitHub | GitLab
 - MadCap Flare
 - Master Control
