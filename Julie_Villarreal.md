@@ -1,5 +1,5 @@
 # Julie Villarreal
-Technical Writer, Editor | Process Analyst | University Technical Writing Instructor  
+Technical Writer, Editor | Process Analyst | Knowledge Specialist 
 
 [Resume](/files/Julie_Villarreal_2024.pdf) | [LinkedIn Profile](www.linkedin.com/in/juliev)
 
