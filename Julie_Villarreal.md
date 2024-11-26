@@ -56,7 +56,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Content Management (Systems)
 - Documentation Development
 - Cross-Functional Collaboration
-- ITIL Process Documents and Diagrams
+- ITIL Process Analysis, Documents, and Diagrams
 - Editing | Proofreading
 - Information Architecture
 - Structured Authoring
@@ -78,13 +78,13 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Critical Thinking
 
 ## Key Achievements
-- Documentation Process Improvements
-- Streamlining Content Workflows
-- Enhancing User Experience
-- Developing Training Materials
-- Leading Content Migration Projects
-- Implementing Style Guides and Standards
-- ITIL v3 Service Management Certification
+- Improve Documentation Process 
+- Streamline Content Workflows
+- Enhance User Experience
+- Develop Training Materials
+- Lead Content Migration Projects
+- Implement Style Guides and Standards
+- Complete ITIL v3 Service Management Certification
 
 ## References available upon request
 
