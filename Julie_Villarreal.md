@@ -77,6 +77,6 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Developing Training Materials
 - Leading Content Migration Projects
 - Implementing Style Guides and Standards
-- ITIL v3 Certification
+- ITIL v3 Service Management Certification
 
 ---
