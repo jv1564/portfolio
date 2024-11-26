@@ -5,6 +5,11 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 
 ---
 
+## Summary
+- Technical author of SDLC, process documents, work-flow diagrams, operating procedures, user and training manuals, and proposals using CMMI® and ITIL® best practices
+- Leader in technical content management and strategy using markdown, structured authoring, and single sourcing to deliver efficient, effective, and user-friendly content across a variety of viewing options 
+- Cross-functional collaborator across multiple teams to gather and implement proactive and reactive content updates
+
 ## Writing Samples
 
 **Process Diagrams**
@@ -51,7 +56,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Content Management (Systems)
 - Documentation Development
 - Cross-Functional Collaboration
-- Process Documents and Diagrams
+- ITIL Process Documents and Diagrams
 - Editing | Proofreading
 - Information Architecture
 - Structured Authoring
@@ -63,12 +68,14 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 ## Soft Skills
 - Excellent Communication 
 - Attention to Detail
-- Problem-Solving
+- Problem Solving
 - Time Management
 - Adaptability
 - Stakeholder Management
 - Cross-Collaboration and Teamwork
-
+- End-User Empathy
+- Eager Learner
+- Critical Thinking
 
 ## Key Achievements
 - Documentation Process Improvements
@@ -79,4 +86,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Implementing Style Guides and Standards
 - ITIL v3 Service Management Certification
 
----
+## References available upon request
+
+
+
