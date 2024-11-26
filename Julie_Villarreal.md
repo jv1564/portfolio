@@ -31,7 +31,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 ## Documentation Tools
 - Adobe Acrobat
 - Camtasia
-- Confluence
+- [Confluence](/files/ChangeMgmtConfluence.jpg)
 - GitHub | GitLab
 - Jira
 - Lessonly
@@ -40,7 +40,6 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Master Control
 - Microsoft Office Suite 
 - Microsoft Visio
-- [Confluence](/files/ChangeMgmtConfluence.jpg)
 - SharePoint
 - Snagit
 - Visual Studio Code
