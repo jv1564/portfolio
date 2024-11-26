@@ -30,9 +30,11 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 
 ## Documentation Tools
 - Adobe Acrobat
+- Camtasia
 - Confluence
 - GitHub | GitLab
 - Jira
+- Lessonly
 - MadCap Flare
 - Markdown
 - Master Control
