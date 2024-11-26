@@ -1,5 +1,5 @@
 # Julie Villarreal
-Technical Writer, Editor | Process Analyst | Knowledge Specialist 
+Technical Writer/Editor | Process Analyst | Knowledge Specialist 
 
 [Resume](/files/Julie_Villarreal_2024.pdf) | [LinkedIn Profile](www.linkedin.com/in/juliev)
 
@@ -29,10 +29,53 @@ Technical Writer, Editor | Process Analyst | Knowledge Specialist
 - Customer Email: [Limelight](/files/CustomerEmail_AddIP.jpg) | [Edgio](/files/email.pdf)
 
 ## Documentation Tools
+- Adobe Acrobat
+- Confluence
 - GitHub | GitLab
+- Jira
 - MadCap Flare
+- Markdown
 - Master Control
+- Microsoft Office Suite 
+- Microsoft Visio
 - [Confluence](/files/ChangeMgmtConfluence.jpg)
 - SharePoint
+- Snagit
+- Visual Studio Code
+
+## Core Skills
+- Software Development Life Cycle (SDLC)
+- User Manuals
+- Content Strategy
+- Content Management (Systems)
+- Documentation Development
+- Cross-Functional Collaboration
+- Process Documents and Diagrams
+- Editing | Proofreading
+- Information Architecture
+- Structured Authoring
+- Single Sourcing
+- Style Guide Development
+- Agile Methodology
+- Scrum Framework
+
+## Soft Skills
+- Excellent Communication 
+- Attention to Detail
+- Problem-Solving
+- Time Management
+- Adaptability
+- Stakeholder Management
+- Cross-Collaboration and Teamwork
+
+
+## Key Achievements
+- Documentation Process Improvements
+- Streamlining Content Workflows
+- Enhancing User Experience
+- Developing Training Materials
+- Leading Content Migration Projects
+- Implementing Style Guides and Standards
+- ITIL v3 Certification
 
 ---
