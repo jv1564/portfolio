@@ -76,6 +76,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - End-User Empathy
 - Eager Learner
 - Critical Thinking
+- English grammar, punctuation, usage
 
 ## Key Achievements
 - Improve Documentation Process 
@@ -88,11 +89,9 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 
 ## Education
 
-- **Masters of English**, specialization in ESL
-University of North Texas, Denton TX 
+- **Masters of English**, ESL specialization </br>  University of North Texas, Denton  
 
-- **Bachelors of English**, Spanish minor
-University of North Texas, Denton TX 
+- **Bachelors of English**, Spanish minor <br/> University of North Texas, Denton  
 
 ## References available upon request
 
