@@ -7,8 +7,8 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 
 ## Summary
 - Technical author of SDLC, process documents, work-flow diagrams, operating procedures, user and training manuals, and proposals using CMMI® and ITIL® best practices
-- Leader in technical content management and strategy using markdown, structured authoring, and single sourcing to deliver efficient, effective, and user-friendly content across a variety of viewing options 
-- Cross-functional collaborator across multiple teams to gather and implement proactive and reactive content updates
+- Leader in technical content management and strategy using markdown, structured authoring, and single sourcing to deliver efficient, effective, and user-friendly information across a variety of viewing options 
+- Cross-functional collaborator across the organization to gather and implement proactive and reactive content updates
 
 ## Writing Samples
 
@@ -19,13 +19,13 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - [Change Timeline](/files/Change_Mgmt_21DaySubmit.pdf)
 - [Troubleshoot Server Issues](/files/33-300-5081_SOP_Troubleshooting_Server_Issues.pdf)
 
-**User Guide Sites**
+**User Guides**
 - Content Delivery: [Markdown](https://docs.edg.io/delivery) | [MadCap Flare](https://support.limelight.com/public/en/Default.htm)
 - Video Streaming: [Markdown](https://docs.edg.io/uplynk/get_started) | [MadCap Flare](https://docs.edgecast.com/video/index.html)
 
 **Quick References**
-- [How-to](/files/Slacket_Quick_Reference_v_1_0.pdf)
 - [Informational](/files/Welcome_Letter_Apps.pdf)
+- [Procedural](/files/Slacket_Quick_Reference_v_1_0.pdf)
 
 **Miscellaneous**
 - [Partner Document](/files/PartnerDocument_English_September_2020.pdf)
@@ -84,7 +84,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Develop Training Materials
 - Lead Content Migration Projects
 - Implement Style Guides and Standards
-- Complete ITIL v3 Service Management Certification
+- Achieve ITIL v3 Service Management Certification
 
 ## Education
 
