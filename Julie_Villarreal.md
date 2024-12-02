@@ -1,7 +1,7 @@
 # Julie Villarreal
 Technical Writer/Editor | Process Analyst | Knowledge Specialist 
 
-[Resume](/files/Julie_Villarreal_2024.pdf) | [LinkedIn Profile](www.linkedin.com/in/juliev) | [Samples](#writing-samples) | [Tools](#documentation-tools) | [Skills](#core-skills) | [Achievements](#key-achievements) | [Education](#education)
+[Resume](/files/Julie_Villarreal_2024.pdf) | [LinkedIn Profile](https://www.linkedin.com/in/juliev/) | [Samples](#writing-samples) | [Tools](#documentation-tools) | [Skills](#core-skills) | [Achievements](#key-achievements) | [Education](#education)
 
 ---
 
