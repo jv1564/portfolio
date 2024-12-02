@@ -57,7 +57,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Documentation Development
 - Cross-Functional Collaboration
 - ITIL Process Analysis, Documents, and Diagrams
-- Editing | Proofreading
+- Editing | Proofreading | English grammar, punctuation, usage
 - Information Architecture
 - Structured Authoring
 - Single Sourcing
@@ -76,7 +76,6 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - End-User Empathy
 - Eager Learner
 - Critical Thinking
-- English grammar, punctuation, usage
 
 ## Key Achievements
 - Improve Documentation Process 
