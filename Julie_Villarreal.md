@@ -86,6 +86,14 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Implement Style Guides and Standards
 - Complete ITIL v3 Service Management Certification
 
+## Education
+
+- **Masters of English**, specialization in ESL
+University of North Texas, Denton TX 
+
+- **Bachelors of English**, Spanish minor
+University of North Texas, Denton TX 
+
 ## References available upon request
 
 
