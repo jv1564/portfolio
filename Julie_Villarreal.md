@@ -13,7 +13,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 ## Writing Samples
 
 **Process Diagrams**
-- [SDLC](/files/SDLC_2024.pdf) (Software Development Life Cyle)
+- [Software Development Life Cyle](/files/SDLC_2024.pdf) (SDLC)
 - [PoP Turn-up](/files/PoP_TurnUp_Process_v0_18.pdf)
 - [Incident Management](/files/2008_09_23_ITIL_IM_PrintVersionJV2.pdf)
 - [Change Timeline](/files/Change_Mgmt_21DaySubmit.pdf)
@@ -42,7 +42,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Lessonly
 - MadCap Flare
 - Markdown
-- Master Control
+- MasterControl
 - Microsoft Office Suite 
 - Microsoft Visio
 - SharePoint
@@ -88,9 +88,11 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 
 ## Education
 
-- **Masters of English**, ESL specialization </br>  University of North Texas, Denton  
+University of North Texas - Denton
 
-- **Bachelors of English**, Spanish minor <br/> University of North Texas, Denton  
+- **Masters of English**, ESL specialization  
+
+- **Bachelors of English**, Spanish minor  
 
 ## References available upon request
 
