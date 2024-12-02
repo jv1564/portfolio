@@ -94,7 +94,7 @@ University of North Texas - Denton
 
 - **Bachelors of English**, Spanish minor  
 
-## References available upon request
-
+## References 
+Available upon request
 
 
