@@ -20,7 +20,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - [Troubleshoot Server Issues](/files/33-300-5081_SOP_Troubleshooting_Server_Issues.pdf)
 
 **User Guides**
-- Content Delivery: [Markdown](https://docs.edg.io/delivery) | [MadCap Flare](https://support.limelight.com/public/en/Default.htm)
+- Content Delivery: [Markdown](https://docs.edg.io/delivery) 
 - Video Streaming: [Markdown](https://docs.edg.io/uplynk/get_started) | [MadCap Flare](https://docs.edgecast.com/video/index.html)
 
 **Quick References**
