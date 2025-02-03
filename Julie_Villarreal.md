@@ -6,7 +6,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 ---
 
 ## Summary
-- Technical author of SDLC, process documents, work-flow diagrams, operating procedures, user and training manuals, and proposals using best practices of di&#225;taxis, CMMI®, and ITIL®.
+- Technical author of SDLC, process documents, work-flow diagrams, operating procedures, user and training manuals, and proposals using best practices of [di&#225;taxis](https://diataxis.fr/), CMMI®, and ITIL®.
 - Leader in technical content management and strategy using markdown, structured authoring, and single sourcing to deliver efficient, effective, and user-friendly information across a variety of viewing options 
 - Cross-functional collaborator across the organization to gather and implement proactive and reactive content updates
 
