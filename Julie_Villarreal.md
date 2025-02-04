@@ -20,12 +20,19 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - [Troubleshoot Server Issues](/files/33-300-5081_SOP_Troubleshooting_Server_Issues.pdf)
 
 **User Guides**
-- Content Delivery: [Markdown](https://docs.edg.io/delivery) 
-- Video Streaming: [Markdown](https://docs.edg.io/uplynk/get_started) | [MadCap Flare](https://docs.edgecast.com/video/index.html)
+- [Content Delivery](/files/Content_Delivery_User_Guide.pdf) 
+- [Control Portal](/files/Control_Portal_User_Guide.pdf)
+- [Media Vault](/files/MediaVault_User_Guide.pdf)
+- Video Streaming: [Realtime](/files/Realtime_Streaming_Guide.pdf) | [MMD Live](/files//MMD_Live_Streaming_Guide_v3.0.pdf)
+
+**API Guides**
+- [Configuration](/files/Control_Portal_Configuration_API_User_Guide.pdf)
+- [Storage](/files/Storage_API_Guide.pdf)
+- [Purge](/files/SmartPurge_REST_API_User_Guide.pdf)
 
 **Quick References**
-- [Informational](/files/Welcome_Letter_Apps.pdf)
-- [Procedural](/files/Slacket_Quick_Reference_v_1_0.pdf)
+- Informational: [Welcome Letter](/files/Welcome_Letter_Apps.pdf)
+- Procedural: [Slacket](/files/Slacket_Quick_Reference_v_1_0.pdf) | [ED Group](/files/CreateEDGroup.pdf)
 
 **Miscellaneous**
 - [Partner Document](/files/PartnerDocument_English_September_2020.pdf)
@@ -64,6 +71,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Style Guide Development
 - Agile Methodology
 - Scrum Framework
+- Diátaxis
 
 ## Soft Skills
 - Excellent Communication 
@@ -92,7 +100,7 @@ University of North Texas - Denton
 
 - **Masters of English**, ESL specialization  
 
-- **Bachelors of English**, Spanish minor  
+- **Bachelors of English**, Literature major/Spanish minor  
 
 ## References 
 Available upon request

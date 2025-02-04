@@ -1,0 +1,938 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<html MadCap:lastBlockDepth="5" MadCap:lastHeight="5767" MadCap:lastWidth="1184" xmlns:MadCap="http://www.madcapsoftware.com/Schemas/MadCap.xsd" MadCap:conditions="Default.OnlySiteInternal">
+    <head>
+        <link href="../../../Resources/TableStyles/API Table Style.css" rel="stylesheet" MadCap:stylesheetType="table" />
+    </head>
+    <body>
+        <h1><MadCap:variable name="Non-Localizable Terms - Limelight.Technology Name - EdgeQuery" />
+        </h1>
+        <div class="internalOnly" MadCap:conditions="Default.OnlySiteInternal">This document is CONFIDENTIAL. <b>Product Manager approval</b> is required for customer use.</div>
+        <table style="margin-left: 0;margin-right: auto;" class="TOC" MadCap:conditions="Default.OnlyMediaWeb">
+            <col />
+            <tbody>
+                <tr>
+                    <td id="autoToc">
+					[auto page TOC H2-H3]
+				</td>
+                </tr>
+            </tbody>
+        </table>
+        <p>The <MadCap:variable name="Non-Localizable Terms - Limelight.Technology Name - EdgeQuery" /> Customer Data API (CDAPI) is a REST API with custom reporting endpoints implemented for <MadCap:variable name="Non-Localizable Terms - Limelight.Company Name - Short" /> customers. This documentation describes version 1 (/v1) of the API. New releases may increase the version number. </p>
+        <h2>API Version</h2>
+        <p>Versioning is reflected in the URL of the application.</p>
+        <h3>Example</h3>
+        <p> <span class="CodeChar">https://llnw.api.com/v1/c/sw312s/reports/usage</span></p>
+        <ul>
+            <li>
+                <p>The <span class="CodeChar">v1</span> prefix is a version specifier that must be present in url. When significant changes are made to the API (changes that would break compatibility with existing applications) this value will change.</p>
+            </li>
+            <li>
+                <p>The API version is independent of the release number.</p>
+            </li>
+        </ul>
+        <h2>Security</h2>
+        <h3>Authentication</h3>
+        <p>The <MadCap:variable name="Non-Localizable Terms - Limelight.Product Name - Control" /> REST APIs Authentication approach is used be consistent with other <MadCap:variable name="Non-Localizable Terms - Limelight.Company Name - Short" /> public REST APIs.</p>
+        <h3>Authorization</h3>
+        <p>Access is allowed to customer users with permission to endpoints configured for that user's company.</p>
+        <h2>Endpoints</h2>
+        <h3><a name="Report"></a>Report</h3>
+        <p>Used access to custom company reports.</p>
+        <h3>Example</h3>
+        <p><span class="CodeChar"> /v1/c/{company_code}/reports/{report_id}</span>
+        </p>
+        <h4 class="keepWithNext">Path variables</h4>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Example</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">company_code</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>unique company identifier.</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>83dcefb7</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">report_id</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>report identifier. (allowed characters 'A_Za-z0-9/-_')</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>usage/storage</p>
+                </td>
+            </tr>
+        </table>
+        <h4 class="keepWithNext">Request parameters</h4>
+        <p class="keepWithNext">Pagination parameters are common for all reporting endpoints.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Example</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">limit</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>(optional) number of records to return. default value is configured per report.</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>10</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">offset</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>(optional) number of records to skip. default 0.</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>4</p>
+                </td>
+            </tr>
+        </table>
+        <p>Other request parameters are endpoint specific. </p>
+        <h4>Formats</h4>
+        <p>JSON</p>
+        <h4 class="keepWithNext">Response Body</h4>
+        <p class="keepWithNext">The response is a JSON object containing the following fields:</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Example</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">data_fields</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Array</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>ordered titles of fields that are returned in records field</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>["time","gigabytes"]</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">data_items</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Array</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>array of data records</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>[[1335855600, 5000], [1335859200, 4000]]</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">limit</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>number of records requested to return</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>2</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">offset</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>number of records requested to skip</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>10</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">total</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>total number of records available</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>30</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">timestamp</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>response time. unix time in seconds</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>1488229051</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">request_id</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>unique request identifier</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>067e6162-3b6f-4ae2-a171-2470b63dff00</p>
+                </td>
+            </tr>
+        </table>
+        <h4>Example</h4>
+        <p><b>Request</b>
+        </p>
+        <p><span class="CodeChar">GET /v1/c/83dcefb7/reports/usage/storage HTTP/1.1</span>
+        </p>
+        <p><b>Response</b>
+        </p>
+        <div class="CodeChar"><pre class="brush: javascript"><p>{</p><p> &#160;&#160; data_fields : ["time","gigabytes"],</p><p> &#160;&#160; data_items : [[1335855600, 5000], [1335859200, 4000]],</p><p> &#160;&#160; limit : 2,</p><p> &#160;&#160; offset : 0,</p><p> &#160;&#160; total : 100,</p><p> &#160;&#160; timestamp : 1488229051,</p><p> &#160;&#160; request_id : 067e6162-3b6f-4ae2-a171-2470b63dff00</p><p>}</p></pre>
+        </div>
+        <h3>Rate Limit</h3>
+        <p>Used to check current rate limit state.</p>
+        <p class="note">Accessing this endpoint does not count against report rate limit.</p>
+        <p><b>Example</b>
+        </p>
+        <p><span class="CodeChar"> /v1/c/{company_code}/rate_limit/{report_id}</span>
+        </p>
+        <h4 class="keepWithNext">Path variables</h4>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Example</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">company_code</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>unique company identifier.</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>83dcefb7</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">report_id</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>report identifier. (allowed characters 'A_Za-z0-9/-_')</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>usage/storage</p>
+                </td>
+            </tr>
+        </table>
+        <h4>Formats</h4>
+        <p>JSON</p>
+        <h4>Response Body</h4>
+        <p>The response is a JSON object containing the following fields</p>
+        <h4 class="keepWithNext">Response</h4>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Field</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">company_code</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Unique Company Identifier</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">report_id</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Unique Report Identifier</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">requests_limit</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Total number of requests (per plan)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">attempts_made</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Attempts made in current period (can be more than <span class="CodeChar">requests_limit</span>)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">requests_made</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Actual requests made in current period (can't be more than <span class="CodeChar">requests_limit</span>)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">requests_remaining</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Requests available in current period (can't be more than <span class="CodeChar">requests_limit</span>)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">period_duration</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Duration of period/window (per plan)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">period_start_ts</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Current period start. Unix time in seconds</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2"><span class="CodeChar">period_end_ts</span>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Current period end. Unix time in seconds</p>
+                </td>
+            </tr>
+        </table>
+        <h4>Example</h4>
+        <p><b>Request</b>
+        </p>
+        <p><span class="CodeChar">GET /v1/c/83dcefb7/rate_limits/usage/storage HTTP/1.1</span>
+        </p>
+        <p><b>Response</b>
+        </p>
+        <div class="CodeChar"><pre class="brush: javascript"><p>{</p><p>  "company_code": "83dcefb7",</p><p>  "report_id": "usage/storage",</p><p>  "requests_limit": 3,</p><p>  "attempts_made": 4,</p><p>  "requests_made": 3,</p><p>  "requests_remaining": 0,</p><p>  "period_duration": 10,</p><p>  "period_start_ts": 1487078770,</p><p>  "period_end_ts": 1487078780</p><p>}</p></pre>
+        </div>
+        <h3>Statistic</h3>
+        <p>Returns aggregated statistics per report (or total, if <span class="CodeChar">report_id</span> is skipped).</p>
+        <p><b>Example</b>
+        </p>
+        <p><span class="CodeChar"> /v1/c/{company_code}/statistics/{report_id}</span>
+        </p>
+        <h4 class="keepWithNext">Path variables</h4>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Example</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">company_code</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>The unique company identifier.</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>83dcefb7</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">report_id</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>(optional) The report identifier. (allowed characters '<span class="CodeChar">A_Za-z0-9/-_</span>')</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>usage/storage</p>
+                </td>
+            </tr>
+        </table>
+        <h4 class="keepWithNext">Request parameters</h4>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Example</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">start_day_ts</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>(optional, inclusive) Unix timestamp (day start) for start of aggregated period</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>1487833200</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">end_day_ts</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>(optional, exclusive) Unix timestamp for end of aggregated period</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>1487919600</p>
+                </td>
+            </tr>
+        </table>
+        <h4>Formats</h4>
+        <p>JSON</p>
+        <h4 class="keepWithNext">Response Body</h4>
+        <p class="keepWithNext">The response is a JSON object containing the following fields </p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Field</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">status_code</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>HTTP status code (in '<span class="CodeChar">per_status_map</span>', otherwise = 0)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">requests</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Total number of requests made</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">first_request</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Unix timestamp</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Timestamp of first request in period</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">last_request</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Unix timestamp</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Timestamp of last request in period</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">duration_millis</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Total duration of requests made (ms)</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">bytes_returned</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Data (in bytes) returned by requests</p>
+                </td>
+            </tr>
+        </table>
+        <h4>Example </h4>
+        <div class="CodeChar"><pre class="brush: javascript"><p>{</p><p> &#160;&#160; "summary": {</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "status_code": 0,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "requests": 20,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "first_request": 1487055601,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "last_request": 1487142020,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "duration_millis": 222,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "bytes_returned": 666</p><p> &#160;&#160; },</p><p> &#160;&#160; "per_status_map": {</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "200": {</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "status_code": 200,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "requests": 20,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "first_request": 1487055601,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "last_request": 1487142020,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "duration_millis": 222,</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; "bytes_returned": 666</p><p> &#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160; }</p><p> &#160;&#160; }</p><p>}</p></pre>
+        </div>
+        <h2 class="keepWithNext">Status Codes And Error Response</h2>
+        <h3 class="keepWithNext">HTTP Status Codes</h3>
+        <p class="keepWithNext">The CDAPI attempts to return an appropriate &#160;<MadCap:variable name="Localizable Terms.Industry Term - HTTP&#160;Status Code" />&#160;for every request.</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Code</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Text</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">200</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>OK</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Success!</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">400</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Bad Request</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>The request was invalid or cannot be otherwise served.</p>
+                    <p>An accompanying error message will explain further.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">403</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Forbidden</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>The request is understood, but it has been refused or access is not allowed.</p>
+                    <p>An accompanying error message will explain why. </p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">404</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Not Found</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>The URI requested is invalid or the resource requested, such as a report, does not exists.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">406</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Not Acceptable</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>API resource was requested in an unsupported format.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">429</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>Too Many Requests</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>Returned in when a request cannot be served due to the rate limit having been exhausted for the resource. See <a href="#Rate">Rate Limiting</a>.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">500</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Internal Server Error</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>Something is broken. Please contact us with additional details of your request.</p>
+                </td>
+            </tr>
+        </table>
+        <h3 class="keepWithNext">Error Messages</h3>
+        <p class="keepWithNext">When the CDAPI Facade API returns error messages, it returns JSON with the following fields:</p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Type</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Description</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">error</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>The error reason.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">description</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>The error description.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">timestamp</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p>Number</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>The Unix time in seconds when the error occurred.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">request_id</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p>String</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>The unique request identifier.</p>
+                </td>
+            </tr>
+        </table>
+        <h4>Error Response Example</h4>
+        <div class="CodeChar"><pre class="brush: javascript"><p>{</p><p> &#160;&#160; error:"Bad Request",</p><p> &#160;&#160; description:"Required parameter 'start_time' is not present.",</p><p> &#160;&#160; timestamp:1488229051,</p><p> &#160;&#160; request_id:"067e6162-3b6f-4ae2-a171-2470b63dff00"</p><p>}</p></pre>
+        </div>
+        <h2 class="keepWithNext"><a name="Rate"></a>Rate Limiting</h2>
+        <p class="keepWithNext">The Rate Limiting policy limits the number of requests certain Report endpoint accepts within a period of time. The response headers tell you everything you need to know about the current rate limit status of a requested report endpoint: </p>
+        <table style="mc-table-style: url('../../../Resources/TableStyles/API Table Style.css');" class="TableStyle-API_Table_Style" cellspacing="0">
+            <colgroup>
+                <col />
+                <col />
+            </colgroup>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1" style="font-weight: bold;">
+                    <p>Header Name</p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1" style="font-weight: bold;">
+                    <p>Header Name</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">X-RateLimit-Limit</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>The maximum number of requests that the report endpoint can serve in current window.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body1">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body1">
+                    <p><span class="CodeChar">X-RateLimit-Remaining</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body1">
+                    <p>The number of requests remaining in the current rate limit window.</p>
+                </td>
+            </tr>
+            <tr class="TableStyle-API_Table_Style-Body-Body2">
+                <td class="TableStyle-API_Table_Style-BodyE-Column1-Body2">
+                    <p><span class="CodeChar">X-RateLimit-Reset</span>
+                    </p>
+                </td>
+                <td class="TableStyle-API_Table_Style-BodyD-Column1-Body2">
+                    <p>A Unix timestamp detailing when the rate limit will reset</p>
+                </td>
+            </tr>
+        </table>
+        <p class="note">If you request data from report endpoint that went over the rate limit, you will receive an error response:</p>
+        <h3>Example</h3>
+        <div class="CodeChar"><pre class="brush: plain"><p>HTTP/1.1 429</p><p>X-Request-ID: ac1cbac1-0bc1-4635-ba15-64ea884a3bfd</p><p>X-RateLimit-Limit: 3</p><p>X-RateLimit-Remaining: 0</p><p>X-RateLimit-Reset: 1488885287</p><p>Content-Type: application/json;charset=UTF-8</p><p>Transfer-Encoding: chunked</p><p>Date: Tue, 07 Mar 2017 11:14:44 GMT</p><p>{"timestamp":1488885284653,"request_id":"ac1cbac1-0bc1-4635-ba15-64ea884a3bfd","error":"Too many requests","description":"API rate limit exceeded."}</p></pre>
+        </div>
+        <p>All endpoints require authentication, so there is no concept of unauthenticated calls and rate limits.</p>
+        <h2>Pagination</h2>
+        <p>CDAPI Pagination is used in the <a href="#Report" style="font-style: italic;">Report</a> endpoint, and is based on the <span class="CodeChar">limit</span> and <span class="CodeChar">offset</span> request parameters. <span class="CodeChar">Limit</span> is the maximum number of rows that may be returned in response. <span class="CodeChar">Offset</span> specifies how many records should be skipped.</p>
+        <h3>Example</h3>
+        <p><b>Request</b>
+        </p>
+        <p><span class="CodeChar">GET /v1/c/ac1cbac1/reports/usage/storage?limit=30&amp;offset=100 HTTP/1.1</span>
+        </p>
+        <p><b>Response</b>
+        </p>
+        <p style="font-style: italic;">returns 30 or less rows, starting from 101 row. (101, 102, 103 ... 130) </p>
+        <p>Every <i>Report</i> response has a custom limit response size <span class="CodeChar">response_rows_limit</span> (maximum number of rows per one request). When you make a call to <i>Report</i>, API compares the parameter limit in the URL with the <span class="CodeChar">response_rows_limit</span>. &#160;If the URL&#160;limit value is greater than <span class="CodeChar">response_rows_limit</span>, the CDAPI&#160;responds with <span class="CodeChar">400 Bad Request</span>.</p>
+        <p>By default, the CDAPI uses limit which is equal to response_rows_limit and offset=0.</p>
+    </body>
+</html>
