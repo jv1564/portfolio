@@ -35,10 +35,10 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - Procedural: [Slacket](/files/Slacket_Quick_Reference_v_1_0.pdf) | [ED Group](/files/CreateEDGroup.pdf)
 
 **Miscellaneous**
-- [Partner Document](/files/PartnerDocument_English_September_2020.pdf)
-- [InfoSec Policies & Protocols](/files/InfoSec_Processes_Protocols_Overview_August2020_Public.pdf)
+- [Partner Document](/files/PartnerDocument_English_September_2020.pdf) 
 - [Customer Support Guide](/files/Customer_Support_Guide_July_2019a.pdf)
 - Customer Email: [Limelight](/files/CustomerEmail_AddIP.jpg) | [Edgio](/files/email.pdf)
+- Information Security Policies: [Limelight](/files/InfoSec_Processes_Protocols_Overview_August2020_Public.pdf) | [Edgio](/files/Information_Security_Policies_Procedures.pdf)
 
 ## Documentation Tools
 - Adobe Acrobat
