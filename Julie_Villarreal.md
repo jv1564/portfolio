@@ -20,6 +20,7 @@ Technical Writer/Editor | Process Analyst | Knowledge Specialist
 - [Troubleshoot Server Issues](/files/33-300-5081_SOP_Troubleshooting_Server_Issues.pdf)
 
 **User Guides**
+- Uplynk: [MadCap Flare](https://api-docs.uplynk.com/) | [Markdown](https://docs.uplynk.com/docs/encoding-profiles)
 - [Content Delivery](/files/Content_Delivery_User_Guide.pdf) 
 - [Control Portal](/files/Control_Portal_User_Guide.pdf)
 - [Media Vault](/files/MediaVault_User_Guide.pdf)
